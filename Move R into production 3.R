@@ -89,7 +89,7 @@ server <- function(input, output) {
       y = input$petal.width,
       col = "red",
       pch = 4, #plot character icon
-      cez = 2, #character size
+      cex = 2, #character size
       lwd = 2  #line width
     )
   })
